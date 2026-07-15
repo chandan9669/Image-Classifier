@@ -1,0 +1,19 @@
+{
+  "source": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Deep learning\\Image-Classifier\\output\\tmpcoqodd7v.jpg",
+  "output": "output\\tmpcoqodd7v_annotated.jpg",
+  "inference_ms": 2180.55,
+  "image_size": {
+    "width": 2425,
+    "height": 3622
+  },
+  "analysis": {
+    "frame_index": 0,
+    "timestamp_ms": 0.0,
+    "counts": {
+      "Person": 0,
+      "Animal": 0,
+      "Object": 0
+    },
+    "detections": []
+  }
+}

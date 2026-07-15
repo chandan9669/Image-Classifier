@@ -1,0 +1,44 @@
+# ============================================================
+# Production CV Pipeline — Pinned Dependencies
+# Python 3.10+
+# ============================================================
+
+# Core deep-learning framework
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# YOLO detection / classification / segmentation
+ultralytics==8.2.48
+
+# Tracking & annotation utilities (ByteTrack is bundled in supervision)
+supervision==0.21.0
+
+# Computer vision
+opencv-python==4.10.0.84
+opencv-contrib-python==4.10.0.84   # optional: extra codecs/algorithms
+
+# Numerical computing
+numpy==1.26.4
+
+# JSON / data serialisation (stdlib in 3.10+, but listed for clarity)
+# json — stdlib
+
+# Rich terminal output (structured logging)
+rich==13.7.1
+
+# Argument parsing — stdlib, no pip install needed
+# argparse — stdlib
+
+# Pillow for image I/O convenience
+Pillow==10.3.0
+
+# Progress bars
+tqdm==4.66.4
+
+# Web UI
+gradio==4.44.0
+
+# Optional: ONNX export / inference acceleration
+# onnx==1.16.1
+# onnxruntime-gpu==1.18.0
